@@ -1,5 +1,7 @@
 import { add } from '../src/stringCalculator.js';
 
 describe('String Calculator', () => {
-  // Tests will go here
+  test('should return 0 for empty string', () => {
+    expect(add("")).toBe(0);
+  });
 });

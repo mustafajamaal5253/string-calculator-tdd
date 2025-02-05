@@ -1,3 +1,3 @@
 export function add(numbers) {
-  // Implementation will go here
+  if (numbers === "") return 0;
 }
